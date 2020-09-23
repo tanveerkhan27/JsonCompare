@@ -1,8 +1,0 @@
-/Users/tanveer/CodingProjects/JsonCompare/bin/Debug/netcoreapp3.1/JsonCompare.deps.json
-/Users/tanveer/CodingProjects/JsonCompare/bin/Debug/netcoreapp3.1/JsonCompare.dll
-/Users/tanveer/CodingProjects/JsonCompare/bin/Debug/netcoreapp3.1/JsonCompare.pdb
-/Users/tanveer/CodingProjects/JsonCompare/obj/Debug/netcoreapp3.1/JsonCompare.csprojAssemblyReference.cache
-/Users/tanveer/CodingProjects/JsonCompare/obj/Debug/netcoreapp3.1/JsonCompare.AssemblyInfoInputs.cache
-/Users/tanveer/CodingProjects/JsonCompare/obj/Debug/netcoreapp3.1/JsonCompare.AssemblyInfo.cs
-/Users/tanveer/CodingProjects/JsonCompare/obj/Debug/netcoreapp3.1/JsonCompare.dll
-/Users/tanveer/CodingProjects/JsonCompare/obj/Debug/netcoreapp3.1/JsonCompare.pdb
