@@ -8,6 +8,21 @@ usage :
         {
           string actualjson = "{'test':'testing'}";
           string expectedjson = "{'test':'testing'}";
-          Assert.Equal(4, 4);
-          JsonCompare.JsonCompare.Compare(actualjson,expectedjson);
+          JsonCompare.Compare(actualjson,expectedjson);
         }
+
+        ----- Test Execution Summary -----
+
+        JsonCompareTest.UnitTest1.TestMethod1:
+            Outcome: Passed
+
+        Total tests: 1. Passed: 1. Failed: 0. Skipped: 0
+        
+        ----- Test Execution Summary -----
+        
+         [xUnit.net 00:00:00.84]     JsonCompareTest.UnitTest1.TestMethod1 [FAIL]                                                                                                                                         
+         X JsonCompareTest.UnitTest1.TestMethod1 [129ms]                                                                                                                                                                
+         Error Message:
+           NUnit.Framework.AssertionException : test:Testing value has not matched
+         
+         Total tests: 1. Passed: 0. Failed: 1. Skipped: 0
