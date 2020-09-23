@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>JsonCompare</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Tanveer Khan</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>dotnet core jsonCompare lib to deep compare jsons JArray/JConstructor/JObject/JProperty/JValue</Description>
+    <PackageTags>jsoncompare;compare;json</PackageTags>
+    <RepositoryUrl>https://github.com/tanveerkhan27/JsonCompare.git</RepositoryUrl>
+    <Copyright>Copyright © 2020 Tanveer K</Copyright>
+
+
   </PropertyGroup>
 
   <ItemGroup>

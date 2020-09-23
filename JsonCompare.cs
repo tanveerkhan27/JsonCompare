@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using JsonCompare.Comparer;
 using NUnit.Framework;
 
+/** Author - Tanveer Khan; email - tanveer.khan@outlook.com **/
 
 namespace JsonCompare
 {

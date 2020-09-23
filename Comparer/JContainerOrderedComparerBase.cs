@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
+/** Author - Tanveer Khan; email - tanveer.khan@outlook.com **/
+
 namespace JsonCompare.Comparer
 {
     abstract class JContainerOrderedComparerBase<TJToken> : JTokenComparerBase<TJToken> where TJToken : JContainer

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>JsonCompare</id>
+    <version>1.0.0</version>
+    <authors>Tanveer Khan</authors>
+    <owners>Tanveer Khan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>dotnet core jsonCompare lib to deep compare jsons JArray/JConstructor/JObject/JProperty/JValue</description>
+    <copyright>Copyright © 2020 Tanveer K</copyright>
+    <tags>jsoncompare compare json</tags>
+    <repository url="https://github.com/tanveerkhan27/JsonCompare.git" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="NUnit" version="3.12.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/tanveer/CodingProjects/JsonCompare/bin/Debug/netcoreapp3.1/JsonCompare.dll" target="lib/netcoreapp3.1/JsonCompare.dll" />
+  </files>
+</package>

@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
+
+/** Author - Tanveer Khan; email - tanveer.khan@outlook.com **/
+
+
 namespace JsonCompare.Comparer
 {
     public class JTokenComparer : IComparer<JToken>
