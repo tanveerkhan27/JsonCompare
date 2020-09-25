@@ -1,7 +1,8 @@
 # JsonCompare
-dotnet core json compare library, useful for API test validations
-this library does deep comparision of json and support all the types i.e JArray/JConstructor/JObject/jProperty/JValue
 
+dotnet core json compare library, useful for API test validations
+
+This library does deep comparision of json and support all types i.e JArray/JConstructor/JObject/JProperty/JValue
 
 usage :
 
