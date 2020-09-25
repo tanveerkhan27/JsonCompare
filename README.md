@@ -4,11 +4,11 @@ dotnet core json compare library, useful for API test validations
 
 This library does deep comparision of json and support all types i.e JArray/JConstructor/JObject/JProperty/JValue
 
-Nuget Install -
+Package Manager Install -
 
         Install-Package JsonCompare -Version 1.0.2
 
-dotnet Install - 
+.Net CLI Install - 
 
         dotnet add package JsonCompare -Version 1.02
         
