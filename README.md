@@ -2,6 +2,7 @@
 dotnet core json compare library, useful for API test validations
 this library does deep comparision of json and support all the types i.e JArray/JConstructor/JObject/jProperty/JValue
 
+
 usage :
 
         public void TestMethod1()
@@ -26,3 +27,19 @@ usage :
            NUnit.Framework.AssertionException : test:Testing value has not matched
          
          Total tests: 1. Passed: 0. Failed: 1. Skipped: 0
+
+If you want to ignore certain values which are random in nature you can use $jsonignore (keyword)
+example - 
+
+output json from your call - 
+        {
+          'test': 'testing',
+          'date': '26/09/2020'
+        }
+        
+expected json for comparison as:
+
+        {
+           'test': 'testing',
+           'date': '$jsoningore'
+        }
