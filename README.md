@@ -32,9 +32,10 @@ If you want to ignore certain values which are random in nature you can use $jso
 example - 
 
 output json from your call - 
+
         {
-          'test': 'testing',
-          'date': '26/09/2020'
+           'test': 'testing',
+           'date': '26/09/2020'
         }
         
 expected json for comparison as:
